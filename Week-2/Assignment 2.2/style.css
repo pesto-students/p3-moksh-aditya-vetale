@@ -1,0 +1,84 @@
+#square {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  flex-wrap: wrap;
+  z-index: 2;
+  position: absolute;
+}
+
+#sqr1 {
+  width: 100px;
+  height: 100px;
+  background-color: aqua;
+  transition-duration: 2s;
+  transform-origin: top left;
+}
+
+#sqr2 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(24, 239, 20);
+  transition-duration: 2s;
+  transform-origin: top right;
+}
+
+#sqr3 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(9, 32, 244);
+  transition-duration: 2s;
+  transform-origin: bottom left;
+}
+
+#sqr4 {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(237, 217, 5);
+  transition-duration: 2s;
+  transform-origin: bottom right;
+}
+
+#heading {
+  font-size: 100px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+/* @keyframes clockwise {
+  to {
+    transform: rotate(90deg);
+  }
+}
+
+@keyframes anticlockwise {
+  to {
+    transform: rotate(-90deg);
+  }
+} */
+
+/* .box:hover #sqr1 #sqr4 {
+  transform: rotate(90deg);
+} */
+
+#square:hover #sqr1 {
+  transform: rotate(90deg);
+}
+
+#square:hover #sqr4 {
+  transform: rotate(90deg);
+}
+
+#square:hover #sqr2 {
+  transform: rotate(-90deg);
+}
+
+#square:hover #sqr3 {
+  transform: rotate(-90deg);
+}
+/* .heading:hover #sqr2 #sqr3 {
+  transform: rotate(-90deg);
+} */
