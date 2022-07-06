@@ -1,0 +1,69 @@
+@media (max-width: 600px) {
+  img {
+    margin-left: 0px;
+  }
+}
+
+body {
+  margin: 10px;
+  /* background-image: url("SL-090519-23100-36.jpg"); */
+  background-size: 100%;
+}
+
+#heading {
+  margin: 22px;
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(34, 35, 33);
+  font-style: italic;
+}
+
+#articles {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+#article1,
+#article2,
+#article3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px;
+  background-color: bisque;
+  overflow: hidden;
+  margin: 15px;
+  height: 125px;
+  width: 40%;
+  text-overflow: ".....";
+  border-radius: 5px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+#article1:hover,
+#article2:hover,
+#article3:hover {
+  opacity: 0.3;
+}
+
+#forms {
+  width: 500px;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid brown;
+  border-radius: 13px;
+}
+
+#button:hover {
+  background-color: rgb(228, 240, 60);
+}
