@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(77, 69, 233);
+}
+
+.App {
+  padding: 50px;
+  display: flexbox;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.addTasks {
+  position: relative;
+  margin-right: 10px;
+  border-radius: 15px;
+  line-height: 40px;
+  width: 300px;
+}
+
+h1 {
+  font-family: Snell Roundhand, cursive;
+  color: blanchedalmond;
+  font-size: xx-large;
+}
+i {
+  font-size: small;
+  position: absolute;
+  margin: 6px 0px 0px 10px;
+}
+
+.output {
+  position: relative;
+  display: inline-block;
+}
+
+.List {
+  border: none;
+  font-weight: 500;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  background-color: azure;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.List:hover {
+  background-color: rgb(217, 255, 0);
+  color: rgb(28, 28, 29);
+  border: none;
+}
+
+#plusSign {
+  position: absolute;
+  margin: 10px 0px 0px -40px;
+  font-size: 25px;
+}
