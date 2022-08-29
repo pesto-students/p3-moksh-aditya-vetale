@@ -8,7 +8,9 @@ import Body from "./body/body.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Body />
-    <Footer />
+    <div className="mainDiv">
+      <Body />
+      <Footer />
+    </div>
   </React.StrictMode>
 );
