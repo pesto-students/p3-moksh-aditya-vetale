@@ -6,6 +6,7 @@ import Footer from "./footer/footer.js";
 import Body from "./body/body.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
     <div className="mainDiv">

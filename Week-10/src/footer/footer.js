@@ -1,5 +1,5 @@
 import "./style.css";
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 const axios = require("axios");
 export default function Footer() {
   const [url, setURL] = useState(null);
