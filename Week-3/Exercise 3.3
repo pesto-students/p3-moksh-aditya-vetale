@@ -1,0 +1,24 @@
+Given code is as below
+
+```
+function createIncrement() {
+  let count = 0;
+  function increment() {
+    count++;
+  }
+  let message = `Count is ${count}`;
+  function log() {
+    console.log(message);
+  }
+  return [increment, log];
+}
+const [increment, log] = createIncrement();
+increment();
+increment();
+increment();
+log(); // What is logged?
+```
+Output for above code would be "Count is 0".
+
+Explaination:- When function createIncrement() is called, message variable gets initialized and at that time value of count is 0. Then when function log() is called
+message gets printed as "Count is 0".
